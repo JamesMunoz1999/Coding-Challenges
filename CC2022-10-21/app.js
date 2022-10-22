@@ -3,10 +3,12 @@
 // Division by zero should return NaN.
 
 function remainder(a, b){
-  if(b>a)
+  if(b>a){
     return b%a;
-  else
+  }
+  else{
     return a%b;
+  }
 }
 
-console.log(remainder (0, 1))
+console.log(remainder (7, 5))
